@@ -106,7 +106,7 @@ class EquationListScreen extends StatelessWidget {
                 children: [
                   Text(
                     equation['description']!,
-                    style: const TextStyle(fontSize: 18, height: 1.6),
+                    style: const TextStyle(fontSize: 12, height: 1.6),
                     textAlign: TextAlign.right,
                   ),
                   const SizedBox(height: 8),
@@ -116,7 +116,7 @@ class EquationListScreen extends StatelessWidget {
                       textDirection: TextDirection.ltr, // Math always flows LTR
                       child: Math.tex(
                         equation['latex']!,
-                        textStyle: const TextStyle(fontSize: 20),
+                        textStyle: const TextStyle(fontSize: 15),
                       ),
                     ),
                   ),
